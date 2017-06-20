@@ -1,0 +1,442 @@
+body {
+    background: url('../img/moh_background.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    margin-top: 20%;
+}
+
+.navbar.transparent.navbar-inverse {
+  background: -webkit-radial-gradient(center, ellipse cover, rgba(76,76,76,1) 0%,rgba(71,71,71,1) 9%,rgba(89,89,89,1) 18%,rgba(102,102,102,1) 27%,rgba(17,17,17,1) 57%,rgba(17,17,17,1) 57%,rgba(43,43,43,1) 76%,rgba(28,28,28,1) 91%); /* Chrome10-25,Safari5.1-6 */
+  -webkit-box-shadow: -123px 10px 113px 35px rgba(25,34,207,1);
+}
+
+#navTitle, .navbar.transparent.navbar-inverse li a {
+  color: white;
+}
+
+.navButton {
+  font-size: 16px;
+}
+
+
+.navbar.transparent.navbar-inverse li a:hover {
+  background: rgba(0,0,0,.2);
+  color: white;
+}
+
+div#navTitle:hover {
+  background: rgba(0,0,0,.2);
+}
+
+#mainButton {
+  background: #313C3B;
+  border: none;
+}
+
+/*==========  typeme.js ==========*/
+
+
+.typed-cursor{
+    font-size: 30px;
+    color: white;
+    font-weight: 300;
+    opacity: 1;
+    -webkit-animation: blink 0.7s infinite;
+    -moz-animation: blink 0.7s infinite;
+    animation: blink 0.7s infinite;
+    text-align: center;
+}
+
+@keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-webkit-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-moz-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+
+.element {
+  font-size: 28px;
+  color: white;
+  font-family: Monospace;
+  display: inline;
+}
+
+.elementContainer {
+  height: 170px;
+}
+
+/*==========  typeme.js ==========*/
+
+/*==========  Mobile First Method For The Arrow ( I may not use the arrow ) ==========*/
+
+    /* Custom, iPhone Retina */
+    @media only screen and (min-width : 320px) {
+      .jumbotron {
+        margin-top: 60px;
+      }
+    }
+
+    /* Extra Small Devices, Phones */
+    @media only screen and (min-width : 480px) {
+      body {
+        margin-top: 12%;
+      }
+      .element {
+        font-size: 34px;
+      }
+      .jumbotron {
+        margin-top: 40px;
+      }
+      .typed-cursor{
+          font-size: 40px;
+          font-weight: 400;
+      }
+    }
+
+    /* Small Devices, Tablets */
+    @media only screen and (min-width : 768px) {
+      .element {
+        font-size: 40px;
+      }
+      .jumbotron {
+        margin-top: -70px;
+        margin-bottom: -10px;
+      }
+    }
+
+    /* Medium Devices, Desktops */
+    @media only screen and (min-width : 992px) {
+      .element {
+        font-size: 45px;
+      }
+      .jumbotron {
+        margin-top: -100px;
+        margin-bottom: -10px;
+      }
+    }
+
+    /* Large Devices, Wide Screens */
+    @media only screen and (min-width : 1200px) {
+      .jumbotron {
+        margin-top: -100px;
+      }
+    }
+
+    /* Very Large Devices, Wide Screens */
+    @media only screen and (min-width : 1300px) {
+      .jumbotron {
+        margin-top: -140px;
+      }
+    }
+
+/*===========================================*/
+
+/* Portfolio Jumbotron */
+
+.jumbotron {
+  background: rgba(0,0,0,0);
+  font-family: Monospace, Arial;
+  color: #fff;
+  text-shadow: #000 0px 0px 20px;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* End Portfolio Jumbotron */
+
+/* Portfolio Projects & Grid */
+
+.img-thumbnail {
+  margin-bottom: 20px;
+}
+
+.titles {
+  color: white;
+  background: rgba(0,0,0,0.4);
+  max-width: 400px;
+}
+
+.picFrame:hover {
+  -webkit-transform:scale(1.05); /* Safari and Chrome */
+    -moz-transform:scale(1.05); /* Firefox */
+    -ms-transform:scale(1.05); /* IE 9 */
+    -o-transform:scale(1.05); /* Opera */
+     transform:scale(1.05);
+}
+
+/* End Portfolio Projects & Grid */
+
+/* Begin About Page */
+
+#profile {
+  border: solid 4px rgba(62,64,63,.9); /*rgba(135,191,200,0.4);*/
+  margin-bottom: 10px;
+  margin-top: 10px;
+  margin-right: 20px;
+  margin-bottom: 10px;
+  float: left;
+}
+
+#aboutContainer1, #aboutContainer2 {
+  /*background: rgba(0,0,0,0.4);*/
+  background: white;
+  border-left: solid 4px rgba(62,64,63,.9);
+  border-right: solid 4px rgba(62,64,63,.9);
+  color: #102627;
+}
+
+#aboutContainer1 {
+  border-top: solid 4px rgba(62,64,63,.9);
+  border-bottom: solid 4px rgba(62,64,63,.9);
+  margin-bottom: 10px;
+}
+
+#aboutContainer2 {
+  border-top: solid 4px rgba(62,64,63,.9);
+  border-bottom: solid 4px rgba(62,64,63,.9);
+  margin-bottom: 40px;
+}
+
+#aboutText1, #aboutText2 {
+  margin-top: 10px;
+  font-size: 16px;
+  text-align: justify;
+}
+
+#education {
+  color: white;
+}
+
+.rightAlign {
+  text-align: right;
+  float: right;
+}
+
+.listItem {
+    /*position: relative;
+    display: block;
+    padding: .4em .4em .4em .4em;
+    margin: .5em 0;
+    background: rgba(135,191,200,0.8);
+    list-style-type: none;
+    border-radius: .3em;
+    transition: all .3s ease-out;
+    color: black;*/
+}
+
+/* End About Page */
+
+.boldLink {
+  font-weight: bold;
+}
+.footer-distributed{
+  
+  background: -webkit-radial-gradient(center, ellipse cover, rgba(76,76,76,1) 0%,rgba(71,71,71,1) 9%,rgba(89,89,89,1) 18%,rgba(102,102,102,1) 27%,rgba(17,17,17,1) 57%,rgba(17,17,17,1) 57%,rgba(43,43,43,1) 76%,rgba(28,28,28,1) 91%); /* Chrome10-25,Safari5.1-6 */
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+  box-sizing: border-box;
+  width: 100%;
+  font: bold 16px;
+  text-align: left;
+
+  padding: 50px 60px 40px;
+  margin-top: 90%;
+  overflow: hidden;
+}
+
+/* Footer left */
+
+.footer-distributed .footer-left{
+  float: left;
+}
+
+/* The company logo */
+
+.footer-distributed h3{
+  color:  #ffffff;
+  font: normal 36px 'Cookie', cursive;
+  margin: 0 0 10px;
+}
+
+.footer-distributed h3 span{
+  color:  #5383d3;
+}
+
+/* Footer links */
+
+.footer-distributed .footer-links{
+  color:  #ffffff;
+  margin: 0 0 10px;
+  padding: 0;
+}
+
+.footer-distributed .footer-links a{
+  display:inline-block;
+  line-height: 1.8;
+  text-decoration: none;
+  color:  inherit;
+}
+
+.footer-distributed .footer-company-name{
+  color:  #8f9296;
+  font-size: 14px;
+  font-weight: normal;
+  margin: 0;
+}
+
+/* Footer social icons */
+
+.footer-distributed .footer-icons{
+  margin-top: 40px;
+}
+
+.footer-distributed .footer-icons a{
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+  cursor: pointer;
+  background-color:  #33383b;
+  border-radius: 2px;
+
+  font-size: 20px;
+  color: #ffffff;
+  text-align: center;
+  line-height: 35px;
+
+  margin-right: 3px;
+  margin-bottom: 5px;
+}
+
+/* Footer Right */
+
+.footer-distributed .footer-right{
+  float: right;
+}
+
+.footer-distributed .footer-right p{
+  display: inline-block;
+  vertical-align: top;
+  margin: 15px 42px 0 0;
+  color: #ffffff;
+}
+
+/* The contact form */
+
+.footer-distributed form{
+  display: inline-block;
+}
+
+.footer-distributed form input,
+.footer-distributed form textarea{
+  display: block;
+  border-radius: 3px;
+  box-sizing: border-box;
+  background-color:  #1f2022;
+  box-shadow: 0 1px 0 0 rgba(255, 255, 255, 0.1);
+  border: none;
+  resize: none;
+
+  font: inherit;
+  font-size: 14px;
+  font-weight: normal;
+  color:  #d1d2d2;
+
+  width: 400px;
+  padding: 18px;
+}
+
+.footer-distributed ::-webkit-input-placeholder {
+  color:  #5c666b;
+}
+
+.footer-distributed ::-moz-placeholder {
+  color:  #5c666b;
+  opacity: 1;
+}
+
+.footer-distributed :-ms-input-placeholder{
+  color:  #5c666b;
+}
+
+
+.footer-distributed form input{
+  height: 55px;
+  margin-bottom: 15px;
+}
+
+.footer-distributed form textarea{
+  height: 100px;
+  margin-bottom: 20px;
+}
+
+.footer-distributed form button{
+  border-radius: 3px;
+  background-color:  #33383b;
+  color: #ffffff;
+  border: 0;
+  padding: 15px 50px;
+  font-weight: bold;
+  float: right;
+}
+
+/* the footer to be responsive*/
+
+@media (max-width: 1000px) {
+
+  .footer-distributed {
+    font: bold 14px sans-serif;
+  }
+
+  .footer-distributed .footer-company-name{
+    font-size: 12px;
+  }
+
+  .footer-distributed form input,
+  .footer-distributed form textarea{
+    width: 250px;
+  }
+
+  .footer-distributed form button{
+    padding: 10px 35px;
+  }
+
+}
+
+@media (max-width: 800px) {
+
+  .footer-distributed{
+    padding: 30px;
+  }
+
+  .footer-distributed .footer-left,
+  .footer-distributed .footer-right{
+    float: none;
+    max-width: 300px;
+    margin: 0 auto;
+  }
+
+  .footer-distributed .footer-left{
+    margin-bottom: 40px;
+  }
+
+  .footer-distributed form{
+    margin-top: 30px;
+  }
+
+  .footer-distributed form{
+    display: block;
+  }
+
+  .footer-distributed form button{
+    float: none;
+  }
+
