@@ -258,6 +258,47 @@ height: 150px;
 .boldLink {
   font-weight: bold;
 }
+
+
+
+
+
+
+
+.dmbutton:hover,
+.dmbutton:active,
+.dmbutton:focus{
+  color: #ffffff;
+  background-color: #455453;
+  border-color: #ffffff;
+}
+.dmbutton {
+  background:rgba(0, 0, 0, 0);
+  border: 1px solid #ffffff;
+  color: #ffffff;
+  -webkit-border-radius: 2px;
+  border-radius: 2px;
+  padding-top: 1.025rem;
+  padding-right: 2.25rem;
+  letter-spacing:0.85px;
+  padding-bottom: 1.0875rem;
+  padding-left: 2.25rem;
+  font-size: 1.55rem;
+  cursor: pointer;
+  font-weight: normal;
+  line-height: normal;
+  margin: 0 0 1.25rem;
+  text-decoration: none;
+  text-align: center;
+  display: inline-block;
+  -webkit-transition: background-color 300ms ease-out;
+  -moz-transition: background-color 300ms ease-out;
+  transition: background-color 300ms ease-out;
+  -webkit-appearance: none;
+  font-weight: normal !important;
+}
+/**------------*/
+
 .footer-distributed{
   
   background: -webkit-radial-gradient(center, ellipse cover, rgba(76,76,76,1) 0%,rgba(71,71,71,1) 9%,rgba(89,89,89,1) 18%,rgba(102,102,102,1) 27%,rgba(17,17,17,1) 57%,rgba(17,17,17,1) 57%,rgba(43,43,43,1) 76%,rgba(28,28,28,1) 91%); /* Chrome10-25,Safari5.1-6 */
@@ -458,4 +499,3 @@ height: 150px;
   .footer-distributed form button{
     float: none;
   }
-
