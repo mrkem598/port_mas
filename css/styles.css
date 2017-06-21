@@ -233,7 +233,26 @@ div#navTitle:hover {
     transition: all .3s ease-out;
     color: black;*/
 }
-
+/* hover on top of the portfolio img*/
+.img-responsive {
+    position: relative;
+    width: 200px;
+    height: 300px;
+    overflow: hidden;
+}
+.text {
+position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 200px;
+    height: 0;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.7);
+    transition: height 0.7s east-out;
+}
+.img-responsive: hover > .text {
+height: 150px;
+}
 /* End About Page */
 
 .boldLink {
