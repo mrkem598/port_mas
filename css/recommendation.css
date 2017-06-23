@@ -33,7 +33,7 @@ article {
     height: 50px;
     position: absolute;
     top: 50%;
-    width: 100%;
+    width: 70%;
     @include transform(translateY(-50%));
 
     label {
