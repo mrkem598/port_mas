@@ -300,7 +300,7 @@ height: 150px;
 /**------------*/
 
 .footer-distributed{
-  
+
   background: -webkit-radial-gradient(center, ellipse cover, rgba(76,76,76,1) 0%,rgba(71,71,71,1) 9%,rgba(89,89,89,1) 18%,rgba(102,102,102,1) 27%,rgba(17,17,17,1) 57%,rgba(17,17,17,1) 57%,rgba(43,43,43,1) 76%,rgba(28,28,28,1) 91%); /* Chrome10-25,Safari5.1-6 */
   box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
   box-sizing: border-box;
@@ -499,32 +499,3 @@ height: 150px;
   .footer-distributed form button{
     float: none;
   }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
