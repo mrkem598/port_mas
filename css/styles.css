@@ -441,8 +441,8 @@ ul li a i:hover {
 }
 
 .footer-distributed form textarea{
-  height: 100px;
-  margin-bottom: 20px;
+  height: 50px;
+  margin-bottom: 10px;
 }
 
 .footer-distributed form button{
