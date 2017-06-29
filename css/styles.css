@@ -491,3 +491,18 @@ ul li a i:hover {
   .google-plus {
     background: #dd4b39
   }
+
+ @import url(https://fonts.googleapis.com/css?family=Roboto+Slab:400);
+
+p5 {
+  background: #222;
+  display: table;
+  margin: 0 auto;
+  font-family: "Roboto Slab";
+  font-weight: 400;
+  font-size: 5em;
+  background: linear-gradient(330deg, #e05252 0%, #99e052 25%, #52e0e0 50%, #9952e0 75%, #e05252 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  line-height: 200px;
+}
