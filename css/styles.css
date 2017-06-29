@@ -493,7 +493,7 @@ ul li a i:hover {
   }
 
 
-p5 {
+.col-md-8 col-md-offset-2 {
 display: block;
 -webkit-box-sizing: content-box;
 -moz-box-sizing: content-box;
