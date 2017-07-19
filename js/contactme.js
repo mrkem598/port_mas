@@ -1,7 +1,11 @@
-﻿//create firebase reference
+//create firebase reference
 var dbRef = new Firebase("https://mohammedportfolio-70e9b.firebaseio.com/");
 var contactsRef = dbRef.child('contacts')
-
+upvotesRef.transaction(function (current_value) {
+  return(current_value || 0) + 1;
+});
+  
+};
 //load older conatcts as well as any newly added one...
 contactsRef.on("child_added", function(snap) {
   console.log("added", snap.key(), snap.val());
