@@ -369,7 +369,7 @@ ul li a i {
 }
 
 
-/* Footer links */
+/* Footer links 
 
 .fa-facebook {
   background: #3b5998
@@ -409,10 +409,10 @@ ul li a i:hover {
   font-size: 14px;
   font-weight: normal;
   margin: 0;
-}
+}*/
 
 
-/* Footer social icons */
+/* Footer social icons 
 
 .footer-distributed .footer-icons {
   margin-top: 20px;
@@ -529,3 +529,4 @@ transform: none;
 -webkit-transform-origin: 50% 50% 0;
 transform-origin: 50% 50% 0;
 }
+*/
