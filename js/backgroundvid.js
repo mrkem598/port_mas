@@ -1,4 +1,4 @@
-//create firebase reference
+﻿//create firebase reference
 var dbRef = new Firebase("https://mohammedportfolio-70e9b.firebaseio.com/");
 var contactsRef = dbRef.child('contacts')
 
