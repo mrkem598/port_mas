@@ -30,7 +30,7 @@ document.querySelector('.addValue').addEventListener("click", function( event ) 
       })
       contactForm.reset();
   } else {
-    alert('Please fill atlease name and email!');
+    alert('Thanks for the email and I will be returning your email shortly!');
   }
 }, false);
 
