@@ -19,5 +19,5 @@ Clone to local repo and go to the directory. Open terminal and `open index.html`
 ***
 
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
-<img src="https://user-images.githubusercontent.com/23619819/30522109-d7b6c354-9b98-11e7-8cd8-af6b650167df.png" width="200px;"/><br /><sub>Mohammed Kemal</sub>](https://github.com/mrkem598)<br />[💻] [🔧](#tool-mkalish "Tools") [📖]  
+[<img src="https://user-images.githubusercontent.com/23619819/30522109-d7b6c354-9b98-11e7-8cd8-af6b650167df.png" width="200px;"/><br /><sub>Mohammed Kemal</sub>](https://github.com/mrkem598)<br />[💻] [🔧](#tool-mkalish "Tools") [📖]  
 
