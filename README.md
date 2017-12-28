@@ -5,7 +5,7 @@
 
 
 ***
-##Client
+## Client
 ***
 This portfolio project was created from the scratch using Bootstrap 4, HTML 5, CSS 3, JavaScript, typed.js, JQuery and jQuery lightbox plugin like pretyphoto.
 
