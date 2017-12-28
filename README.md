@@ -15,7 +15,7 @@ This portfolio project was created from the scratch using Bootstrap 4, HTML 5, C
 Clone to local repo and go to the directory. Open terminal and `open index.html`.
 
 ***
-## Contributor
+## Developer
 ***
 
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
