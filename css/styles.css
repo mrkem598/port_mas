@@ -6,6 +6,17 @@ body {
  background-size: cover;
  margin-top: 20%;
 }
+.item{
+  height: 550px;
+  width: 100%;
+  background-color: red;
+  
+}
+img.center{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
 
 
 .navbar.transparent.navbar-inverse {
