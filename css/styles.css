@@ -6,6 +6,7 @@ body {
  background-size: cover;
  margin-top: 20%;
 }
+/* carousole sizing */
 .item{
   height: 550px;
   width: 100%;
@@ -16,6 +17,10 @@ img.center{
   display: block;
   margin-left: auto;
   margin-right: auto;
+}
+.container-fluid userInfo{
+  box-sizing:content-box;
+  background-image: image(moh.jpg)
 }
 
 
