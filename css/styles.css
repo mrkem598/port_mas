@@ -1,16 +1,21 @@
 body {
- background : url('../img/back.JPG') no-repeat center center fixed;
+ /*background : url('../img/back.JPG') no-repeat center center fixed;*/
  -webkit-background-size: cover;
  -moz-background-size: cover;
  -o-background-size: cover;
  background-size: cover;
- margin-top: 20%;
+ margin-top: 0%;
+ padding-top: 70px;
+ text-align: right;
 }
 /* carousole sizing */
 .item{
   height: 550px;
   width: 100%;
   background-color: red;
+  margin: -5px;
+  padding: center;
+
   
 }
 img.center{
@@ -426,3 +431,54 @@ ul li a i {
 .video-container video.fillWidth {
    width: 100%;
 }
+/*
+=========================
+The begenning of lattest video
+=========================
+*/
+.lattest-video {
+	padding: 5px;
+	position: relative;
+	text-transform: capitalize;
+	border: 1px solid #000;
+	border-radius: 10%;
+	margin-bottom: 3px;
+}
+.lattest-video:after {
+	content: "378";
+	position: absolute;
+	left: 5px;
+	bottom: 5px;
+	font-size: 9px;
+}
+.lattest-video:before {
+	content: "1 day";
+	position: absolute;
+	right: 5px;
+	bottom: 5px;
+	font-size: 9px;
+}
+.lattest-video a:hover {
+	text-decoration: none;
+}
+/*
+=========================
+The end of lattest video
+=========================
+*/
+
+/*
+=========================
+The begenning of all-video
+=========================
+*/
+.all-video {
+	margin: 5px;
+	padding: 10px;
+	border-radius: 10%;
+	border: 1px solid #000;
+}
+/*
+=========================
+The end of all-video
+=========================
