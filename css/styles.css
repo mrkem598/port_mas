@@ -7,7 +7,7 @@ body {
  margin-top: 0%;
  padding-top: 70px;
  text-align: right;
- background-color: bisque;
+ background-color: rgb(148, 83, 4);
 }
 /* carousole sizing */
 .item{
@@ -63,7 +63,7 @@ div#navTitle:hover {
 /*==========  typed.js ==========*/
 
 .typed-cursor {
- font-size: 50px;
+ font-size: 100px;
  color: white;
  font-weight: 300;
  opacity: 1;
@@ -199,7 +199,7 @@ div#navTitle:hover {
 /* Portfolio Jumbotron */
 
 .jumbotron {
- background: rgba(0, 0, 0, 0);
+ background: rgba(194, 120, 10, 0);
  font-family: Monospace, Arial;
  color: #fff;
  text-shadow: #000 0px 0px 20px;
