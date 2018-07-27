@@ -13,9 +13,11 @@ body {
 .item{
   height: 550px;
   width: 100%;
-  background-color: red;
+  background-color: rgb(218, 6, 6);
   margin: -5px;
   padding: center;
+  
+
 
   
 }
