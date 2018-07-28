@@ -24,13 +24,34 @@
   </style>
 </head>
 <body>
-    <div class="col-xs-8 col-xs-offset-2 col-lg-8 col-lg-offset-2" id="aboutContainer1">
+    <!-- Nav Bar -->
+    <div class="navbar transparent navbar-inverse navbar-fixed-top ">
+      <div class="container ">
+        <div class="navbar-header ">
+          <button type="button " class="navbar-toggle " data-toggle="collapse " data-target=".navbar-collapse ">
+            <span class="icon-bar "></span>
+            <span class="icon-bar "></span>
+            <span class="icon-bar "></span>
+          </button>
+          <a class="navbar-brand text-muted " id="navTitle " href="index.html"><strong>ServiceNow</strong><i class="fa fa-star" style="color:red"></i></a>
+        </div> <!-- This closes the navbar-header div, and makes the dropdown menu at small screen sizes drop down blow the nav bar, instead of within it.-->
+        <div class="collapse navbar-collapse ">
+          <ul class="nav navbar-nav navbar-right ">
+            <li><a class="navButton " href="index.html ">Home</a></li>
+            <li><a class="navButton " href="portfolio.html ">Portfolio</a></li>
+            <li><a class="navButton " href="about.html ">Bio</a></li>
+            <li><a class="vavButton " href="recommendation.html " target="_blank ">Blog</a></li>
+            <li><a class="navButton " href="contactme.html">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+<div class="col-xs-8 col-xs-offset-2 col-lg-8 col-lg-offset-2" id="aboutContainer1">
   <div class="container">
     <h1 style="padding-right: 22%">Drop me a message & I will be happy to reply shortly!</h1>
     <hr/>
-    <div class="row">
-
-    <div class="item active" style="text-align: left">
+  <div class="row" id="contactJa">
+    <div class="itemactive" style="text-align: left">
       <div class="col-md-6">
         <form method="post" name="contactForm">
           <div class="form-group">
