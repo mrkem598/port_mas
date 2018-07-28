@@ -23,6 +23,7 @@ input[type=text] {
   background-color: #ffff66;
   padding-right: 100%;
   padding-left: 50%;
+  cursor: pointer;
 }
   
 .itemactive{
