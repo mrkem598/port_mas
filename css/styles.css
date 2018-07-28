@@ -17,6 +17,13 @@ body {
   margin: -5px;
   padding: center;
 }
+input[type=text] {
+  border: 2px solid red;
+  border-radius: 4px;
+  background-color: #ffff66;
+  padding-right: 100%;
+  padding-left: 50%;
+}
   
 .itemactive{
   box-sizing: content-box;
@@ -28,7 +35,7 @@ body {
 
 
   
-}
+
 img.center{
   display: block;
   margin-left: auto;
