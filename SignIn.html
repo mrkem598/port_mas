@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta charset="utf-8">
+  <meta property="og:title" content="Mohammed Kemal | Full Stack Web Developer" />
+  <meta property="og:site_name" content="Portfolio" />
+  <meta property="og:description" content="Personal Portfolio." />
+  <meta property="og:type" content="Portfolio Website" />
+  <meta property="og:url" content="http://servicenowstar.com/" />
+  <meta property="og:image" content="https://user-images.githubusercontent.com/23619819/30521052-ca4895ba-9b86-11e7-848d-3edb96595a4d.jpg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" type="image/png" href="img/favicon.png">
+  <link href="css/bootstrap.min.css " rel="stylesheet " media="screen ">
+  <link href="css/bootstrap-theme.min.css " rel="stylesheet " media="screen ">
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="css/styles.css " rel="stylesheet " media="screen ">
+  <link href="css/recommendation.css " rel="stylesheet " media="screen ">
+  <link href="font-awesome/css/font-awesome.css" rel="stylesheet">
+  <link rel="stylesheet" href="animate.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@3.5.2/animate.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css"> 
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+</head>
+<body>
+  <!-- Nav Bar -->
+  <div class="navbar transparent navbar-inverse navbar-fixed-top ">
+    <div class="container ">
+      <div class="navbar-header ">
+        <button type="button " class="navbar-toggle " data-toggle="collapse " data-target=".navbar-collapse ">
+          <span class="icon-bar "></span>
+          <span class="icon-bar "></span>
+          <span class="icon-bar "></span>
+        </button>
+        <a class="navbar-brand text-muted " id="navTitle " href="index.html"><strong>ServiceNow</strong><i class="fa fa-star" style="color:red"></i></a>
+      </div> <!-- This closes the navbar-header div, and makes the dropdown menu at small screen sizes drop down blow the nav bar, instead of within it.-->
+      <div class="collapse navbar-collapse ">
+        <ul class="nav navbar-nav navbar-right ">
+          <li><a class="navButton " href="index.html ">Home</a></li>
+          <li><a class="navButton " href="portfolio.html ">Portfolio</a></li>
+          <!-- <li><a class="navButton " href="about.html ">Bio</a></li> -->
+          <li><a class="vavButton " href="recommendation.html " target="_blank ">Blog</a></li>
+          <li><a class="navButton " href="contactme.html">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <!-- End Nav Bar-->
+   
+   <style>
+   body {
+     font-family: Arial, Helvetica, sans-serif;
+   }
+    * {
+     box-sizing: border-box;
+   }
+    /* style the container */
+   .container {
+     position: relative;
+     border-radius: 5px;
+     background-color: #e7760c;
+     padding: 20px 0 30px 0;
+   }
+    /* style inputs and link buttons */
+   input,
+   .btn {
+     width: 100%;
+     padding: 12px;
+     border: none;
+     border-radius: 4px;
+     margin: 5px 0;
+     opacity: 0.85;
+     display: inline-block;
+     font-size: 17px;
+     line-height: 20px;
+     text-decoration: none; /* remove underline from anchors */
+     text-align: center;
+   }
+    input:hover,
+   .btn:hover {
+     opacity: 1;
+   }
+    /* add appropriate colors to fb, twitter and google buttons */
+   .fb {
+     background-color: #3B5998;
+     color: white;
+   }
+    .twitter {
+     background-color: #55ACEE;
+     color: white;
+   }
+    .google {
+     background-color: #dd4b39;
+     color: white;
+   }
+    /* style the submit button */
+   input[type=submit] {
+     background-color: #4CAF50;
+     color: white;
+     cursor: pointer;
+   }
+    input[type=submit]:hover {
+     background-color: #45a049;
+   }
+    /* Two-column layout */
+   .col {
+     float: left;
+     width: 50%;
+     margin: auto;
+     padding: 0 50px;
+     margin-top: 6px;
+   }
+    /* Clear floats after the columns */
+   .row:after {
+     content: "";
+     display: table;
+     clear: both;
+   }
+    /* vertical line */
+   .vl {
+     position: absolute;
+     left: 50%;
+     transform: translate(-50%);
+     border: 2px solid #ddd;
+     height: 175px;
+   }
+    /* text inside the vertical line */
+   .vl-innertext {
+     position: absolute;
+     top: 50%;
+     transform: translate(-50%, -50%);
+     background-color: #f1f1f1;
+     border: 1px solid #ccc;
+     border-radius: 50%;
+     padding: 8px 10px;
+   }
+    /* hide some text on medium and large screens */
+   .hide-md-lg {
+     display: none;
+   }
+    /* bottom container */
+   .bottom-container {
+     text-align: center;
+     background-color: #666;
+     border-radius: 0px 0px 4px 4px;
+   }
+    /* Responsive layout - when the screen is less than 650px wide, make the two columns stack on top of each other instead of next to each other */
+   @media screen and (max-width: 650px) {
+     .col {
+       width: 100%;
+       margin-top: 0;
+     }
+     /* hide the vertical line */
+     .vl {
+       display: none;
+     }
+     /* show the hidden text on small screens */
+     .hide-md-lg {
+       display: block;
+       text-align: center;
+     }
+   }
+   </style>
+   </head>
+   <body>
+     <div class="container">
+     <form action="/action_page.php">
+       <div class="row">
+         <h2 style="text-align:center">Sign In</h2>
+         <div class="vl">
+           <span class="vl-innertext">or</span>
+         </div>
+          <div class="col">
+           <a href="https://www.facebook.com/login.php" class="fb btn">
+             <i class="fa fa-facebook fa-fw"></i> Login with Facebook
+            </a>
+           <a href="https://www.twitter.com/login" class="twitter btn">
+             <i class="fa fa-twitter fa-fw"></i> Login with Twitter
+           </a>
+           <a href="https://www.google.com/login" class="google btn"><i class="fa fa-google fa-fw">
+             </i> Login with Google+
+           </a>
+         </div>
+          <div class="col">
+           <div class="hide-md-lg">
+             <p>Or sign in manually:</p>
+           </div>
+            <input type="text" name="username" placeholder="Username" required>
+           <input type="password" name="password" placeholder="Password" required>
+           <input type="submit" value="Login">
+         </div>
+        
+       </div>
+     </form>
+   </div>
+    <div class="bottom-container">
+     <div class="row">
+       <div class="col">
+         <a href="https://www.servicenowstar.com/signup" style="color:white" class="btn">Sign up</a>
+       </div>
+       <div class="col">
+         <a href="https://www.servicenowstar.com/forgotpassword" style="color:white" class="btn">Forgot password?</a>
+       </div>
+     </div>
+   </div>
+<footer class="footer-distributed ">
+  <div class="footer-left ">
+    <h3>ServiceNow<span>Star</span></h3>
+    <p class="footer-links ">
+      <a href="# ">Home</a>
+      <a href="# ">Bio</a>
+      <a href="# ">Contact</a>
+    </p>
+    <p class="blocktext">Copyright &copy; 2013-2018, Mohammed Kemal</p>
+    <div class="footer-icons ">
+      <div class="linkedin">
+        <a href="mailto:mkemal@servicenowstar.com"><i class="fa fa-envelope fa-3x"></i></a>
+        <a href="https://www.linkedin.com/in/mohammed-k-3b8591136/" target="_blank"><i class="fa fa-linkedin-square fa-3x"> </i></a>
+        <a href="https://https://https://github.com/mrkem598" target="_blank"><i class="fa fa-github-square fa-3x"> </i></a>
+        <a href="https://www.facebook.com " target="_blank"><i class="fa fa-facebook-square fa-3x"></i></a>
+        <a href="https://twitter.com" target="_blank"><i class="fa fa-twitter fa-3x"></i></a>
+        <a href="https://www.youtube.com/channel/UCJpw-Yb-MlkSUuVO5gcwHRg" target="_blank"><i class="fa fa-youtube fa-3x"></i></a>
+      </div>
+    </div>
+  </div>
+  
+  <div class="blocktext">
+    <p5 class="blocktext">Open and  candid developer who is ken for collaborative work!</p5>
+  </div>
+</footer> 
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+<script src="js/bootstrap.min.js"></script>
+<!-- Go to www.addthis.com/dashboard to customize your tools -->
+<!-- Go to www.addthis.com/dashboard to customize your tools -->
+<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5b477b3d387d507f"></script>
+</body>
+</html>
