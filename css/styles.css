@@ -529,6 +529,7 @@ border-image-width: auto;
 padding: 0.4%;
 -o-animation-play-state: running;
 transition-delay: 0ms;
+background-color: rgb(15, 2, 2);
 
 
 
