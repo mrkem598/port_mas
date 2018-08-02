@@ -514,5 +514,20 @@ The begenning of all-video
 }
 /*
 =========================
-The end of all-video
-=========================
+Google photo
+=========================*/
+.pa-embed-player {
+border: 10px solid rgb(231, 109, 9);
+border-radius: 6%;
+-webkit-transition: all 2s;
+transition: all 2s;
+width:100%; 
+height:100%; 
+display:none; 
+image-rendering: optimizeQuality; 
+border-image-width: auto;
+padding: 0.4%;
+-o-animation-play-state: running;
+transition-delay: 0ms;
+
+}
