@@ -63,7 +63,7 @@ img.center{
 }
 
 .navbar.transparent.navbar-inverse li a:hover {
- background: rgba(0, 0, 0, .2);
+ background: rgba(31, 10, 223, 0.2);
  color: white;
 }
 
@@ -72,7 +72,7 @@ div#navTitle:hover {
 }
 
 #mainButton {
- background: #313C3B;
+ background: rgb(19, 226, 209);
 
  border: none;
 }
@@ -530,10 +530,10 @@ padding: 0.4%;
 -o-animation-play-state: running;
 transition-delay: 0ms;
 background-color: rgb(15, 2, 2);
+}
 
 
-
-
-
-
+.gsc-control-cse {
+  padding: 0px 0px 0px 0px;
+  width: auto;
 }
