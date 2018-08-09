@@ -31,32 +31,106 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
 </head>
 <body>
-  <!-- Nav Bar -->
-  <div class="navbar transparent navbar-inverse navbar-fixed-top ">
-    <div class="container ">
-      <div class="navbar-header ">
-        <button type="button " class="navbar-toggle " data-toggle="collapse " data-target=".navbar-collapse ">
-          <span class="icon-bar "></span>
-          <span class="icon-bar "></span>
-          <span class="icon-bar "></span>
-        </button>
-        <a class="navbar-brand text-muted " id="navTitle " href="index.html"><strong>ServiceNow</strong><i class="fa fa-star" style="color:red"></i></a>
-      </div> <!-- This closes the navbar-header div, and makes the dropdown menu at small screen sizes drop down blow the nav bar, instead of within it.-->
-      <div class="collapse navbar-collapse ">
-          <ul class="nav navbar-nav navbar-right">
-              <li><a href="index.html"><span class="glyphicon glyphicon-user"> </span>Sign Up</a></li>
-              <li><a href="index.html"><span class="glyphicon glyphicon-log-in"></span><Login</a></li>
+    <!-- Nav Bar -->
+  
+    <nav class="navbar navbar-default navbar-inverse" role="navigation">
+      <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand text-muted " id="navTitle " href="index.html"><strong>ServiceNow</strong><i class="fa fa-star" style="color:red"></i></a>
+        </div>
+    
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="index.html">Home</a></li>
+            <li><a href="portfolio.html">Blog</a></li>
+            <li class="dropdown">
+              <a href="index.html" class="dropdown-toggle" data-toggle="dropdown">Empower Project
+              <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="about.html">About</a></li>
+                <li><a href="#">Program</a></li>
+                <li><a href="contactme.html">Support</a></li>
+                <li class="divider"></li>
+                <li><a href="portfolio.html">Resource</a></li>
+                <li class="divider"></li>
+                <li><a href="contactme.html">Messages</a></li>
+              </ul>
+            </li>
           </ul>
-        <ul class="nav navbar-nav navbar-right ">
-          <li><a class="navButton " href="index.html ">Home</a></li>
-          <li><a class="navButton " href="portfolio.html ">Portfolio</a></li>
-          <!-- <li><a class="navButton " href="about.html ">Bio</a></li> -->
-          <li><a class="vavButton " href="recommendation.html " target="_blank ">Blog</a></li>
-          <li><a class="navButton " href="contactme.html">Contact</a></li>
-        </ul>
-      </div>
+    <!-- Custom google search-->
+  <form class="navbar-form navbar-left" role="search">
+    <div class="form-group">          
+    <div class="sidebar">
+        <script>
+        (function() {
+          var cx = '016702030280873473558:1zkbmop0tck';
+          var gcse = document.createElement('script');
+          gcse.type = 'text/javascript';
+          gcse.async = true;
+          gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
+          var s = document.getElementsByTagName('script')[0];
+          s.parentNode.insertBefore(gcse, s);
+        })();
+      </script>
+      <gcse:search></gcse:search>
+        <gcse:searchbox></gcse:searchbox>
     </div>
-  </div>
+      <!--End of custom Google search-->
+    </div>
+  </form>
+  <ul class="nav navbar-nav navbar-right">
+      <li class="dropdown">
+          <li><a href="index.html"><span class="glyphicon glyphicon-user"> </span>Sign Up</a></li>
+          <li><a href="index.html"><span class="glyphicon glyphicon-log-in"></span><Login</a></li>
+          <ul id="login-dp" class="dropdown-menu">
+            <li>
+               <div class="row">
+                  <div class="col-md-12">
+                    Login via
+                    <div class="social-buttons">
+                      <a href="www.facebook.com" class="btn btn-fb"><i class="fa fa-facebook"></i> Facebook</a>
+                      <a href="www.twitter.com" class="btn btn-tw"><i class="fa fa-twitter"></i> Twitter</a>
+                    </div>
+                                    or
+                     <form class="form" role="form" method="post" action="login" accept-charset="UTF-8" id="login-nav">
+                        <div class="form-group">
+                           <label class="sr-only" for="exampleInputEmail2">Email address</label>
+                           <input type="email" class="form-control" id="exampleInputEmail2" placeholder="Email address" required>
+                        </div>
+                        <div class="form-group">
+                           <label class="sr-only" for="exampleInputPassword2">Password</label>
+                           <input type="password" class="form-control" id="exampleInputPassword2" placeholder="Password" required>
+                                                 <div class="help-block text-right"><a href="">Forget the password ?</a></div>
+                        </div>
+                        <div class="form-group">
+                           <button type="submit" class="btn btn-primary btn-block">Sign in</button>
+                        </div>
+                        <div class="checkbox">
+                           <label>
+                           <input type="checkbox"> keep me logged-in
+                           </label>
+                        </div>
+                     </form>
+                  </div>
+                  <div class="bottom text-center">
+                    New here ? <a href="SignIn.html"><b>Join Us</b></a>
+                  </div>
+               </div>
+            </li>
+          </ul>
+          </li>
+        </ul>
+        </div><!-- /.navbar-collapse -->
+      </div><!-- /.container-fluid -->
+    </nav>
   <!-- End Nav Bar-->
   <div class="container" data-responsive-toggle="awesomeMenu" data-hide-for="medium">
     <div class="col-lg-6 col-md-4 col-sm-6 col-xs-12 picFrame">
