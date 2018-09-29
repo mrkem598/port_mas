@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta property="og:title" content="Mohammed Kemal | Full Stack Web Developer" />
+  <meta property="og:site_name" content="Portfolio" />
+  <meta property="og:description" content="Personal Portfolio." />
+  <meta property="og:type" content="Portfolio Website" />
+  <meta property="og:url" content="http://servicenowstar.com/" />
+  <meta property="og:image" content="https://user-images.githubusercontent.com/23619819/30521052-ca4895ba-9b86-11e7-848d-3edb96595a4d.jpg" />
+  <link rel="shortcut icon" type="image/png" href="img/favicon.png">
+  <link href="css/bootstrap.min.css " rel="stylesheet " media="screen ">
+  <link href="css/bootstrap-theme.min.css " rel="stylesheet " media="screen ">
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="css/styles.css " rel="stylesheet " media="screen ">
+  <link href="css/recommendation.css " rel="stylesheet " media="screen ">
+  <link href="font-awesome/css/font-awesome.css" rel="stylesheet">
+  <link rel="stylesheet" href="animate.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@3.5.2/animate.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css"> 
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <!--Google photo script -->
+  <script src="https://www.publicalbum.org/js/pa-embed-player.min.js" async></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+  <style>
+    .container1 {
+      position: relative;
+      
+    }
+    
+    .image {
+      display: block;
+      width: 50%;
+      height: auto;
+    }
+    
+    .overlay {
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      height: 100%;
+      width: 100%;
+      opacity: 0;
+      transition: .5s ease;
+      background-color: rgb(219, 226, 221);
+    }
+    .container1:hover .overlay {
+      opacity: 1;
+    }
+    
+    .text_2 {
+      color: black;
+      font-size: 16px;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+      transform: translate(-50%, -50%);
+      text-align: center;
+    }
+    
+    </style>
+</head>
+<body>
+    <!-- Nav Bar -->
+  
+    <nav class="navbar navbar-default navbar-inverse" role="navigation">
+      <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand text-muted " id="navTitle " href="index.html"><strong>ServiceNow</strong><i class="fa fa-star" style="color:red"></i></a>
+        </div>
+    
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav">
+            <li><a href="about.html" class="fa fa-2x fa-info-circle">About</a></li>
+            <li><a href="portfolio.html" class="fa fa-2x fa-tasks">Projects</a></li>
+            <li><a href="portfolio.html" class="fa fa-2x fa-book">Resources</a></li>
+            <li><a href="contactme.html" class="fa fa-2x fa-phone">Contact</a></li>
+            <li><a href="index.html" class="fa fa-2x fa-handshake-o">Support</a></li>
+          </ul>
+    <!-- Custom google search-->
+  <form class="navbar-form navbar-left" role="search">
+    <div class="form-group">          
+    <div class="sidebar">
+        <script>
+        (function() {
+          var cx = '016702030280873473558:1zkbmop0tck';
+          var gcse = document.createElement('script');
+          gcse.type = 'text/javascript';
+          gcse.async = true;
+          gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
+          var s = document.getElementsByTagName('script')[0];
+          s.parentNode.insertBefore(gcse, s);
+        })();
+      </script>
+    </div>
+      <!--End of custom Google search-->
+    </div>
+  </form>
+  <ul class="nav navbar-nav navbar-right">
+      <li class="dropdown">
+          <li><a href="index.html"><span class="glyphicon glyphicon-user"> </span>Sign Up</a></li>
+          <li><a href="index.html"><span class="glyphicon glyphicon-log-in"></span><Login</a></li>
+          <ul id="login-dp" class="dropdown-menu">
+            <li>
+               <div class="row">
+                  <div class="col-md-12">
+                    Login via
+                    <div class="social-buttons">
+                      <a href="www.facebook.com" class="btn btn-fb"><i class="fa fa-facebook"></i> Facebook</a>
+                      <a href="www.twitter.com" class="btn btn-tw"><i class="fa fa-twitter"></i> Twitter</a>
+                    </div>
+                                    or
+                     <form class="form" role="form" method="post" action="login" accept-charset="UTF-8" id="login-nav">
+                        <div class="form-group">
+                           <label class="sr-only" for="exampleInputEmail2">Email address</label>
+                           <input type="email" class="form-control" id="exampleInputEmail2" placeholder="Email address" required>
+                        </div>
+                        <div class="form-group">
+                           <label class="sr-only" for="exampleInputPassword2">Password</label>
+                           <input type="password" class="form-control" id="exampleInputPassword2" placeholder="Password" required>
+                                                 <div class="help-block text-right"><a href="">Forget the password ?</a></div>
+                        </div>
+                        <div class="form-group">
+                           <button type="submit" class="btn btn-primary btn-block">Sign in</button>
+                        </div>
+                        <div class="checkbox">
+                           <label>
+                           <input type="checkbox"> keep me logged-in
+                           </label>
+                        </div>
+                     </form>
+                  </div>
+                  <div class="bottom text-center">
+                    New here ? <a href="SignIn.html"><b>Join Us</b></a>
+                  </div>
+               </div>
+            </li>
+          </ul>
+          </li>
+        </ul>
+        </div><!-- /.navbar-collapse -->
+      </div><!-- /.container-fluid -->
+    </nav>
+
+
+
+
+    <footer class="footer-distributed ">
+        <div class="footer-left ">
+          <h3>ServiceNow<span>Star</span></h3>
+          <p class="footer-links ">
+            <a href="index.html" class="fa fa-home">Home</a>
+            <a href="about.html" class="fa fa-drivers-license-o">About</a>
+            <a href="contactme.html" class="fa fa-envelope">Contact</a>
+          </p>
+          <p class="blocktext">Copyright &copy; 2013-2018, ServiceNowStar</p>
+          <div class="footer-icons ">
+            <div class="linkedin">
+              <a href="mailto:mkemal@servicenowstar.com"><i class="fa fa-envelope fa-3x"></i></a>
+              <a href="https://www.linkedin.com/in/mohammed-k-3b8591136/" target="_blank"><i class="fa fa-linkedin-square fa-3x"> </i></a>
+              <a href="https://https://https://github.com/mrkem598" target="_blank"><i class="fa fa-github-square fa-3x"> </i></a>
+              <a href="https://www.facebook.com " target="_blank"><i class="fa fa-facebook-square fa-3x"></i></a>
+              <a href="https://twitter.com" target="_blank"><i class="fa fa-twitter fa-3x"></i></a>
+              <a href="https://www.youtube.com/channel/UCJpw-Yb-MlkSUuVO5gcwHRg" target="_blank"><i class="fa fa-youtube fa-3x"></i></a>
+            </div>
+          </div>
+        </div>
+        
+        <div class="blocktext">
+          <p5 class="blocktext">Open and  candid developer who is ken for collaborative work!</p5>
+        </div>
+      </footer> 
+      <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+      <script src="js/bootstrap.min.js"></script>
+      <!-- Go to www.addthis.com/dashboard to customize your tools -->
+      <!-- Go to www.addthis.com/dashboard to customize your tools -->
+      <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5b477b3d387d507f"></script>
+      </div>
+      </body>
+      </html>
+      
