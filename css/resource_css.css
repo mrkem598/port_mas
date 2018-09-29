@@ -3,7 +3,7 @@ body {
   }
   
   #record_wrap {
-    width:100%;
+    width:95%;
     margin:100px auto;
     display:flex;
     justify-content:space-between;
@@ -11,10 +11,10 @@ body {
   
   .record {
     position:relative;
-    width:33%;
-    height:40vw;
+    width:50%;
+    height:50vw;
     overflow:hidden;
-    border:2px solid #ccc;
+    border:5px solid #ccc;
     @include shadow(1);
     background-color:#fff;
     cursor:pointer;
