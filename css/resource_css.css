@@ -3,7 +3,7 @@ body {
   }
   
   #record_wrap {
-    width:90%;
+    width:100%;
     margin:100px auto;
     display:flex;
     justify-content:space-between;
@@ -11,10 +11,10 @@ body {
   
   .record {
     position:relative;
-    width:30%;
-    height:20vw;
+    width:33%;
+    height:40vw;
     overflow:hidden;
-    // border:2px solid #ccc;
+    border:2px solid #ccc;
     @include shadow(1);
     background-color:#fff;
     cursor:pointer;
@@ -60,7 +60,7 @@ body {
         
     h1 {
       margin:5px;
-      font-size:1.1em;
+      font-size:10px;
       font: weight 500;
     }
     p {
@@ -91,4 +91,58 @@ body {
     text-align:center;
     color:green;
   }
+
+  /* css*/
+  @media only screen and (min-width: 320px) {
+    .jumbotron {
+      margin-top: 60px;
+    }
+   }
+   
+   
+   /* Extra Small Devices, Phones */
+   
+   @media only screen and (min-width: 480px) {
+    body {
+      margin-top: 12%;
+    }
+    .element {
+      font-size: 34px;
+    }
+    .jumbotron {
+      margin-top: 40px;
+    }
+    .typed-cursor {
+      font-size: 40px;
+      font-weight: 400;
+    }
+   }
+   
+   
+   /* Small Devices, Tablets */
+   
+   @media only screen and (min-width: 768px) {
+    .element {
+      font-size: 40px;
+    }
+    .jumbotron {
+      margin-top: -70px;
+      margin-bottom: -10px;
+    }
+   }
+   
+   
+   /* Medium Devices, Desktops */
+   
+   @media only screen and (min-width: 992px) {
+    .element {
+      font-size: 45px;
+    }
+    .jumbotron {
+      margin-top: -100px;
+      margin-bottom: -10px;
+    }
+   }
+   
+   
   
