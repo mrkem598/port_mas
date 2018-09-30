@@ -58,16 +58,8 @@ body {
   .record-desc {
     margin:20px 0 0 10px;
         
-    h1 {
-      margin:5px;
-      font-size:10px;
-      font: weight 500;
-    }
-    p {
-      font-size:0.75em;
-      line-height:1.4em;
-      color:#666;
-    }
+    
+   
     opacity:0;
     transition: opacity 400ms ease-in-out 190ms ;
   }
@@ -112,10 +104,7 @@ body {
     .jumbotron {
       margin-top: 40px;
     }
-    .typed-cursor {
-      font-size: 40px;
-      font-weight: 400;
-    }
+    
    }
    
    
