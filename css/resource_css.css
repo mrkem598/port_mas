@@ -3,7 +3,7 @@ body {
   }
   
   #record_wrap {
-    width:95%;
+    width:90%;
     margin:100px auto;
     display:flex;
     justify-content:space-between;
