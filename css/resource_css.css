@@ -51,7 +51,7 @@ body {
     background-position:center center;
   }
   .record:hover .record-display {
-    height:2%;
+    height:0%;
     @include shadow(1);
   }
   
