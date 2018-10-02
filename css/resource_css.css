@@ -39,18 +39,7 @@ body {
     }
   }
   
-  .record-arrow {
-    position:absolute;
-    padding:3%;
-    img {
-      width:8%;
-      height:8%;
-    }
-    background-image:url("http://www.portalguard.com/images/icons/right-arrow.png");
-    transform:translateX(75%);
-    opacity:0;
-    transition:all 300ms ease-in-out;
-  }
+ 
   
   .record:hover .record-arrow {
     transform:translateX(85%);
