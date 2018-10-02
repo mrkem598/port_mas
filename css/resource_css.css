@@ -57,9 +57,6 @@ body {
   
   .record-desc {
     margin:20px 0 0 10px;
-        
-    
-   
     opacity:0;
     transition: opacity 400ms ease-in-out 190ms ;
   }
@@ -69,6 +66,7 @@ body {
   }
   #record2 {
     transition:height 500ms cubic-bezier(0.54, 0.21, 0.18, 1.35);
+    justify-content: inherit;
   }
   #record3 {
     transition:height 300ms cubic-bezier(0.54, 0.21, 0.18, 1.35);
