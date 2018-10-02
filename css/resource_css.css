@@ -82,7 +82,7 @@ body {
     color:green;
   }
 
-  /* css*/
+  /* css
   @media only screen and (min-width: 320px) {
     .jumbotron {
       margin-top: 60px;
@@ -90,7 +90,7 @@ body {
    }
    
    
-   /* Extra Small Devices, Phones */
+   /* Extra Small Devices, Phones 
    
    @media only screen and (min-width: 480px) {
     body {
@@ -106,7 +106,7 @@ body {
    }
    
    
-   /* Small Devices, Tablets */
+   /* Small Devices, Tablets 
    
    @media only screen and (min-width: 768px) {
     .element {
@@ -119,7 +119,7 @@ body {
    }
    
    
-   /* Medium Devices, Desktops */
+   /* Medium Devices, Desktops 
    
    @media only screen and (min-width: 992px) {
     .element {
@@ -130,6 +130,6 @@ body {
       margin-bottom: -10px;
     }
    }
-   
+   */
    
   
