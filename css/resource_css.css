@@ -15,8 +15,8 @@ body {
   
   .record {
     position:relative;
-    width:50%;
-    height:50vw;
+    width:100%;
+    height:auto;
     overflow:hidden;
     border:5px solid #ccc;
     @include shadow(1);
