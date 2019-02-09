@@ -145,3 +145,74 @@ body {
 	border-radius : 10px;
 	background-color: #1ec754;
 }
+/*==========  typed.js ==========*/
+
+.typed-cursor {
+ font-size: 100px;
+ color: white;
+ font-weight: 300;
+ opacity: 1;
+ -webkit-animation: blink 0.7s infinite;
+ -moz-animation: blink 0.7s infinite;
+ animation: blink 0.7s infinite;
+ text-align: center;
+}
+
+@keyframes blink {
+ 0% {
+   opacity: 1;
+ }
+ 50% {
+   opacity: 0;
+ }
+ 100% {
+   opacity: 1;
+ }
+}
+
+@-webkit-keyframes blink {
+ 0% {
+   opacity: 1;
+ }
+ 50% {
+   opacity: 0;
+ }
+ 100% {
+   opacity: 1;
+ }
+}
+
+@-moz-keyframes blink {
+ 0% {
+   opacity: 1;
+ }
+ 50% {
+   opacity: 0;
+ }
+ 100% {
+   opacity: 1;
+ }
+}
+
+.element {
+ font-size: 28px;
+ color: white;
+ font-family: Monospace;
+ display: inline;
+}
+
+.elementContainer {
+ height: 180px;
+}
+
+/*==========  typeme.js ==========*/
+/* Custom, iPhone Retina */
+
+@media only screen and (min-width: 320px) {
+ .jumbotron {
+   margin-top: 60px;
+ }
+}
+
+
+
