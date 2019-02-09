@@ -53,6 +53,8 @@ body {
     background-image:url(../img/book.jpg);
     background-size:cover;
     background-position:center center;
+	  border-radius: 10px solid #FFA500;
+	  
   }
   .record:hover .record-display {
     height:0%;
