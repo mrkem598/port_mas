@@ -139,4 +139,7 @@ body {
    }
    */
    
-  
+  .record-desc {
+	border-radius : 10px;
+	background-color: #1ec754;
+}
