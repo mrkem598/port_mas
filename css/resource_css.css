@@ -29,7 +29,7 @@ body {
     padding-right: 2%;
     height:auto;
     overflow:hidden;
-    border:5px solid #ccc;
+    border-radius:10px solid #1ec754;
     @include shadow(1);
     background-color:#fff;
     cursor:pointer;
@@ -53,7 +53,7 @@ body {
     background-image:url(../img/book.jpg);
     background-size:cover;
     background-position:center center;
-	  border-radius: 10px solid #FFA500;
+    border-radius: 10px solid #FFA500;
 	  
   }
   .record:hover .record-display {
