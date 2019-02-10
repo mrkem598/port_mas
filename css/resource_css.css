@@ -141,9 +141,9 @@ body {
    }
    */
    
-  .record-desc {
+  .record{
 	border-radius : 10px;
-	background-color: #1ec754;
+	border-color: #1ec754;
 }
 /*==========  typed.js ==========*/
 
@@ -213,45 +213,4 @@ body {
    margin-top: 60px;
  }
 }
-
-
-/**------------*/
-
-ul li a i {
- background: #ffff66;
- color: #fff;
- width: 40px;
- height: 40px;
- border-radius: 0.5px;
- font-size: 25px;
- text-align: center;
- margin-right: 10px;
- padding-top: 1115%;
- transition: all 0.2s ease-in-out;
-}
-
-.footer-distributed {
- background: -webkit-radial-gradient(center, ellipse cover, rgba(76, 76, 76, 1) 0%, rgba(71, 71, 71, 1) 9%, rgba(89, 89, 89, 1) 18%, rgba(102, 102, 102, 1) 27%, rgba(17, 17, 17, 1) 57%, rgba(17, 17, 17, 1) 57%, rgba(43, 43, 43, 1) 76%, rgba(28, 28, 28, 1) 91%);
- /* Chrome10-25,Safari5.1-6 */
- box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
- box-sizing: border-box;
- width: 100%;
- font: bold 18px;
- text-align: left;
- padding: 10px 20px 15px;
- margin-top: 50%;
- overflow: hidden;
-}
-/* The company logo */
-
-.footer-distributed h3 {
- color: #ffffff;
- font: normal 30px 'Cookie', cursive;
- margin: 0 0 10px;
-}
-
-.footer-distributed h3 span {
- color: #5383d3;
-}
-
 
