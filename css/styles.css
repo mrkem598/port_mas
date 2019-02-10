@@ -482,8 +482,8 @@ background-color: rgb(15, 2, 2);
   padding: 0px 0px 0px 0px;
   width: auto;
 }
-.record-desc {
-	border-radius : 10px;
+.record {
+	border-radius : 13px;
 	background-color: #1ec754;
 }
 	
