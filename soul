@@ -1,0 +1,536 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta property="og:title" content="Mohammed Kemal Workforce Analytics | Full Stack Developer | ServiceNow Developer" />
+  <meta property="og:site_name" content="Global Initiatives" />
+  <meta property="og:description" content="Global Initiatives" />
+  <title>
+    Welcome To ServiceNowStar
+  </title>
+  <meta name="ServerName" content="www.ServiceNowStar.com">
+  <meta property="og:type" content="ServiceNowStar" />
+  <meta property="og:url" content="http://servicenowstar.com/" />
+  <meta property="og:image" content="https://user-images.githubusercontent.com/23619819/30521052-ca4895ba-9b86-11e7-848d-3edb96595a4d.jpg" />
+  <link rel="shortcut icon" type="image/png" href="img/favicon.png">
+  <link href="css/bootstrap.min.css " rel="stylesheet " media="screen ">
+  <link href="css/bootstrap-theme.min.css " rel="stylesheet " media="screen ">
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="css/resource_css.css" rel="stylesheet " media="screen ">
+  <link href="font-awesome/css/font-awesome.css" rel="stylesheet">
+  <link rel="stylesheet" href="animate.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@3.5.2/animate.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css"> 
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+  <!-- Hotjar Tracking Code for www.servicenowstar.com -->
+<script>
+  (function(h,o,t,j,a,r){
+      h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+      h._hjSettings={hjid:1049282,hjsv:6};
+      a=o.getElementsByTagName('head')[0];
+      r=o.createElement('script');r.async=1;
+      r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+      a.appendChild(r);
+  })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
+</script>
+  <style>
+    .container1 {
+      position: relative;
+      
+    }
+    
+    .image {
+      display: block;
+      width: 50%;
+      height: auto;
+    }
+    
+    .overlay {
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      height: 100%;
+      width: 100%;
+      opacity: 0;
+      transition: .5s ease;
+      background-color: rgb(219, 226, 221);
+    }
+    .container1:hover .overlay {
+      opacity: 1;
+    }
+    
+    .text_2 {
+      color: black;
+      font-size: 16px;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+      transform: translate(-50%, -50%);
+      text-align: center;
+    }
+    .tales {
+  width: 100%;
+}
+.carousel-inner{
+  width:100%;
+  max-height: 300px !important;
+  border-radius: 15px;
+  border-color: #FFA500;
+  border-style: solid;
+}
+    </style>
+</head>
+<body>
+    <!-- Nav Bar -->
+    <nav class="navbar navbar-default navbar-inverse" role="navigation">
+      <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand text-muted " id="navTitle " href="index.html"><strong>ServiceNow</strong><i class="fa fa-star" style="color:red"></i></a>
+        </div>
+    
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav">
+            <li><a href="about.html" class="fa fa-2x fa-info-circle">About</a></li>
+            <li><a href="index.html" class="fa fa-2x fa-tasks"></a></li>
+            <li><a href="index.html" class="fa fa-2x fa-book">Resources</a></li>
+            <li><a href="contactme.html" class="fa fa-2x fa-phone">Contact</a></li>
+            <li><a href="support.html" class="fa fa-2x fa-handshake-o">Support</a></li>
+            <li><a class="mkSearchBtn npar util-menu" href="#" style=""><span class="fa fa-2x fa-icon-search1"></span></a></li>
+          </ul>
+    <!-- Custom google search-->
+  <form class="navbar-form navbar-left" role="search">
+    <div class="form-group">          
+    <div class="sidebar">
+        <script>
+        (function() {
+          var cx = '016702030280873473558:1zkbmop0tck';
+          var gcse = document.createElement('script');
+          gcse.type = 'text/javascript';
+          gcse.async = true;
+          gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
+          var s = document.getElementsByTagName('script')[0];
+          s.parentNode.insertBefore(gcse, s);
+        })();
+      </script>
+    </div>
+      <!--End of custom Google search-->
+    </div>
+  </form>
+  <ul class="nav navbar-nav navbar-right">
+      <li class="dropdown">
+          <li><a href="index.html"><span class="glyphicon glyphicon-user"> </span>Sign Up</a></li>
+          <li><a href="index.html"><span class="glyphicon glyphicon-log-in"></span><Login</a></li>
+          <ul id="login-dp" class="dropdown-menu">
+            <li>
+               <div class="row">
+                  <div class="col-md-12">
+                    Login via
+                    <div class="social-buttons">
+                      <a href="www.facebook.com" class="btn btn-fb"><i class="fa fa-facebook"></i> Facebook</a>
+                      <a href="www.twitter.com" class="btn btn-tw"><i class="fa fa-twitter"></i> Twitter</a>
+                    </div>
+                                    or
+                     <form class="form" role="form" method="post" action="login" accept-charset="UTF-8" id="login-nav">
+                        <div class="form-group">
+                           <label class="sr-only" for="exampleInputEmail2">Email address</label>
+                           <input type="email" class="form-control" id="exampleInputEmail2" placeholder="Email address" required>
+                        </div>
+                        <div class="form-group">
+                           <label class="sr-only" for="exampleInputPassword2">Password</label>
+                           <input type="password" class="form-control" id="exampleInputPassword2" placeholder="Password" required>
+                                                 <div class="help-block text-right"><a href="">Forget the password ?</a></div>
+                        </div>
+                        <div class="form-group">
+                           <button type="submit" class="btn btn-primary btn-block">Sign in</button>
+                        </div>
+                        <div class="checkbox">
+                           <label>
+                           <input type="checkbox"> keep me logged-in
+                           </label>
+                        </div>
+                     </form>
+                  </div>
+                  <div class="bottom text-center">
+                    New here ? <a href="SignIn.html"><b>Join Us</b></a>
+                  </div>
+               </div>
+            </li>
+            </ul>
+          </li>
+        </ul>
+        </div><!-- /.navbar-collapse -->
+      </div><!-- /.container-fluid -->
+    </nav>
+
+<!-- Carousel start-->  
+   <div class="container" data-responsive-toggle="awesomeMenu" data-hide-for="medium">
+    <div class="col-xs-12 col-sm- col-lg-12 picFrame">
+      <div id="myCarousel" class="carousel slide" data-ride="carousel">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+          <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+          <li data-target="#myCarousel" data-slide-to="1"></li>
+          <li data-target="#myCarousel" data-slide-to="2"></li>
+          <li data-target="#myCarousel" data-slide-to="3"></li>
+          <li data-target="#myCarousel" data-slide-to="4"></li>
+          <li data-target="#myCarousel" data-slide-to="5"></li>
+        </ol>
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner">
+          <div class="item active">
+            <a href="https://github.com/mrkem598/My-WatchList-Angular2App/">
+              <img src="img/achievement-agreement-arms-1068523.jpg" alt="Success">
+              <div class="carousel-caption">
+                <h3>Website for community who never have before!</h3>
+                <p></p>
+              </div>
+            </a>
+          </div>
+          <div class="item">
+            <a href="https://ccusa.github.io/Disaster_Vulnerability_Map">
+              <img src="img/pexels-photo-177598.jpeg" alt="Interactive Map">
+              <div class="carousel-caption">
+                <h3>Create Website that can help the community</h3>
+                <p></p>
+              </div>
+            </a>
+          </div>
+          <div class="item">
+            <a href="https://mrkem598.github.io/DCTrainSchedulerApp/">
+              <img src="img/apple-business-computer-39284.jpg" alt="Some of ServiceNow Global Companies" >
+              <div class="carousel-caption">
+                <h3>Connect the community with the service at digital glance</h3>
+                <p></p>
+              </div>
+            </a>
+          </div>
+          <div class="item">
+            <a href="https://ancient-coast-98731.herokuapp.com/">
+              <img src="img/apple-computer-desk-209151.jpg" alt="USCIS Quiz App"> 
+              <div class="carousel-caption">
+                <h3>Founder & CEO of ServiceNowStar</h3>
+                <p></p>
+              </div>
+            </a>
+          </div>
+          <!-- Left and right controls -->
+          <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="right carousel-control" href="#myCarousel" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+      </div>
+      </div>
+    </div>
+<!-- Carousel End--> 
+ <!-- Begin typeme.js -->
+ <div class="container-fluid ">
+  <div class="row ">
+    <div class="col-xs-10 col-xs-offset-1 ">
+      <div class="elementContainer text-center ">
+        <p class="element "></p>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- End typeme.js --> 
+  <!-- Main Page Button -->
+  <div class="text-center ">
+    <div>
+      <h1 class="flipInY">Code For The World | Free Digital Books | Success Coach </h1>
+    </div>
+    <div>
+      <h1>Read Today To Become A Leader</h1>
+      <a class="btn btn-primary btn-lg "  id="mainButton ">Read Quality Books Free of Charge</a>
+    </div>
+  </div>
+  <!-- End Main Page Button -->
+<!-- Resource start-->
+<div class="container">
+  <div class="row">
+    <div class="col-lg-12 col-md-12 col-sm-6">
+    <div id="record_wrap">
+    <section class="record">
+       <div id="record2" class="record-display"> 
+       </div>
+       <div class="record-desc">
+         <h1>Power of+Thinking</h1>
+         <button class="btn"><i class="fa fa-download"></i> <a href="http://www.makemoneywithpyxism.info/joinstevehawk.com/PowerOfPositiveThinking.pdf" download="pdf">PowerOfPositiveThinking</a></button>
+         <p>
+            Believe in yourself! Have faith in your ability! Without a humble but reasonable confidence in your own power.
+         </p>
+       </div>
+    </section>
+    <section class="record">
+       <div id="record3" class="record-display">
+       </div>
+       <div class="record-desc">
+         <h1>The-Success-Principles</h1>
+         <button class="btn"><i class="fa fa-download"></i> <a href="http://jackcanfield.com/images/stories/the-success-principles-2-chapters.pdf" download="pdf">The-Success-Principles</a></button>
+         <p>
+          All blame is a waste of time. No matter how much fault you find with another,
+          and regardless of how much you blame him, it will not change you.
+         </p>
+       </div>
+    </section>
+    </div>
+  </div> 
+</div>
+</div>
+<!-- Resource end-->
+<!-- Resource start-->
+<div class="container">
+    <div class="row">
+      <div id="record_wrap">
+        <section class="record">
+              <div id="record1" class="record-display"> 
+              </div>
+              <div class="record-desc">
+                <h1>100 Great Business Ideas</h1>
+                <button class="btn"><i class="fa fa-download"></i> <a href="http://docshare01.docshare.tips/files/3424/34247510.pdf" download="pdf">100 Great Business Ideas</a></button>
+                <p>
+                 Deliver customers a consistent (and ideally a “branded”)experience each time they deal with your business. Be clear about the value proposition—what you are offering customers…</p>
+              </div>
+          </section>
+        <section class="record">
+              <div id="record1" class="record-display">
+                
+              </div>
+              <div class="record-desc">
+                <h1>The Innovator's Dilemma</h1>
+                <button class="btn"><i class="fa fa-download"></i> <a href="https://drive.google.com/file/d/18CCz0Sd2uLcTUuarmsOkGI_9kV1f0yNM/view?usp=sharing" download="pdf">The Innovator's Dilemma</a></button>
+                <p>
+                 Many large companies adopt a strategy of waiting until new markets are “large enough to be interesting.” But evidence shows this is not often a successful strategy…
+                </p>
+              </div>
+          </section>
+         </div>
+  </div> 
+</div>
+</div>
+<!-- Resource end-->
+<!-- Resource start-->
+<div class="container">
+    <div class="row">
+      <div id="record_wrap">
+        <section class="record">
+              <div id="record1" class="record-display"> 
+              </div>
+              <div class="record-desc">
+                <h1>Innovation, Creativity and Leadership</h1>
+                <button class="btn"><i class="fa fa-download"></i> <a href="http://www.howardpartners.com.au/publications/Innovation__Creativity_and_Leadership.pdf" download="pdf">Innovation, Creativity and Leadership</a></button>
+                <p>
+                 Whilst innovation is the successful exploitation of new ideas, creativity involves the development of original and novel ideas that have a commercial application…
+                </p>
+              </div>
+          </section>
+        <section class="record">
+              <div id="record1" class="record-display">
+              </div>
+              <div class="record-desc">
+                <h1>Train-2-Stay-Focused</h1>
+                <button class="btn"><i class="fa fa-download"></i> <a href="http://everything-voluntary.com/train-stay-focused?print=pdf" download="pdf">Train-2-Stay-Focused</a></button>
+                <p>
+                 It’s a common problem these days: switching between browser tabs and apps on your phone, checking social media and messages and email, thinking about the million things you have to do…
+                </p>
+              </div>
+          </section>
+         </div>
+  </div> 
+</div>
+</div>
+<!-- Resource end-->
+        <!-- Resource start-->
+<div class="container">
+  <div class="row">
+    <div class="col-lg-12 col-md-12 col-sm-6">
+    <div id="record_wrap">
+        <section class="record">
+              <div id="record1" class="record-display">
+                
+              </div>
+              <div class="record-desc">
+                <h1>101 Activities For Cretivity</h1>
+                <button class="btn"><i class="fa fa-download"></i> <a href="http://www.ergen.gr/files/Creativity_And_Problem_Solving.pdf" download="pdf">101 Activities For Cretivity</a></button>
+                <p>
+                Our minds are reserviors of idea. 101 Activities For Cretivity…
+                </p>
+              </div>
+          </section>
+      <section class="record" class="img-responsive">
+         <div id="record3" class="record-display">
+         </div>
+         <div class="record-desc">
+           <h1>Public Speaking</h1>
+           <button class="btn"><i class="fa fa-download"></i> <a href="https://www.jef.eu/fileadmin/_migrated/content_uploads/Public_speaking_03.pdf" download="pdf">Public Speaking</a></button>
+           <p>
+            There’s no way you can give a good talk unless you have something worth talking about. Conceptualizing and framing what you want to say is the most vital part of preparation. 
+           </p>
+         </div>
+      </section>
+      </div>
+    </div> 
+  </div>
+  <!-- Resource start-->
+<div class="container" style="border-radius: 10px">
+  <div class="row">
+    <div id="record_wrap">
+        <section class="record">
+            <div id="record1" class="record-display">
+              
+            </div>
+            <div class="record-desc">
+              <h1>Building Confidence</h1>
+              <button class="btn"><i class="fa fa-download"></i> <a href="https://www.studenthealth.gov.hk/english/resources/resources_bl/files/self_esteem_self_confidence.pdf" download="pdf">Building Confidence</a></button>
+              <p>
+                1. Do you like yourself?<br>
+                2. Are you satisfied with yourself?<br>
+                3. Are you willing to improve your weaknesses?<br>
+                4. Do you think you are useless?
+              </p>
+            </div>
+        </section>
+    <section class="record" class="img-responsive">
+       <div id="record3" class="record-display">
+       </div>
+       <div class="record-desc">
+         <h1>Self Motivation</h1>
+         <button class="btn"><i class="fa fa-download"></i> <a href="http://www.princeton.edu/~rbenabou/papers/CONFQJE2.pdf" download="pdf">Self Motivation</a></button>
+         <p>
+          What modes of self-esteem management are sustainable (from “systematic denial” to “complete self-acceptance”), depending on a person’s characteristics such as his time-discounting profile or cost of memory manipulation?
+         </p>
+       </div>
+    </section>
+    </div>
+  </div>
+  <h3>The World Was Hers For The Reading</h3>
+</div>
+  <div class="container">
+        <iframe width="510" height="300" src="https://www.youtube.com/embed/b49JzwVP4SU" frameborder="10px" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+        <iframe width="510" height="300" src="https://www.youtube.com/embed/56SgCo4G95o" frameborder="10px" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+  </div>
+  <div class="container">
+        <iframe width="510" height="300" src="https://www.youtube.com/embed/RYsEqLq-Xss" frameborder="10px" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+        <iframe width="510" height="300" src="https://www.youtube.com/embed/87SAsfiA2gE" frameborder="10px" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+ 
+  </div>
+  <div class="container">
+        <iframe src="https://www.youtube.com/embed/YIcYGKe-oLM" width="510" height="300" frameborder="10px" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+        <iframe src="https://www.youtube.com/embed/-DtILpmsCcA" width="510" height ="300" frameborder="10px" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+  </div>
+  <div class="container">
+    <iframe src="https://www.youtube.com/embed/h7_OkywMfvE?ecver=2"  width="510" height="300" frameborder="10px" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+    <iframe src="https://www.youtube.com/embed/XpOupAt4Bec?ecver=2" width="510" height="300" frameborder="10px" allow="autoplay; encrypted-media"  allowfullscreen></iframe>
+</div>
+<div class="container">
+        <iframe width="510" height="300" src="https://www.youtube.com/embed/mTZh3L6FHzc" frameborder="10px" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+        <iframe width="510" height="300" src="https://www.youtube.com/embed/tvk7P_zpLro"  frameborder="10px" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+  </div>
+  <div class="container">
+    <iframe src="https://www.youtube.com/embed/gXeRPzVbuwc"  width="510" height="300" frameborder="10px" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+    <iframe src="https://www.youtube.com/embed/XpOupAt4Bec?ecver=2" width="510" height="300" frameborder="10px" allow="autoplay; encrypted-media"  allowfullscreen></iframe>
+</div>  
+
+<div class="container">
+  <iframe src="https://www.youtube.com/embed/MkdcnkGBQSw"  width="510" height="300" frameborder="10px" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+  <iframe src="https://www.youtube.com/embed/j7xZ615HpwQ?ecver=2" width="510" height="300" frameborder="10px" allow="autoplay; encrypted-media" allowfullscreen> </iframe>
+</div>
+  <script src="https://www.buzzsprout.com/269128.js?player=small" type="text/javascript" charset="utf-8"></script>
+  <!-- End Nav Bar-->
+  <div class="container" style="background-color:aquamarine;">
+  <div class="col-xs-12 col-sm- col-lg-12">
+  <h3>Make a Donation to ServiceNowStar Global Initiatives</h3>
+    <h1>Donate</h1>
+    <p>Support our work! Contributions of any size are helpful and welcome.</p>
+    
+    <form style="text-align:center;" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+        <input type="hidden" name="cmd" value="_xclick">
+        <input type="hidden" name="business" value="mkemal@servicenowstar.com">
+        <strong>Donation / Contribution? </strong><br />
+        <select name="item_name" style="text-align:left;">
+          <option value="Donation">Code for the World</option>
+          <option value="Contribution">Free books for the World</option>
+          <option value="Contribution">Web Hosting</option>
+          <option value="Contribution">Sponsor domain names</option>
+        </select>
+        <strong>Donate?</strong><br />   
+        <select name="item_number">
+          <option value="PayPal Form Tutorial">ServiceNowStar</option>
+        </select>
+        <strong>How much do you want to donate?</strong><br />
+        $<input type="text-box" name="amount" style="box-align:center;">
+        <input type="hidden" name="no_shipping" value="0">
+        <input type="hidden" name="no_note" value="1">
+        <input type="hidden" name="currency_code" value="USD">
+        <input type="hidden" name="lc" value="AU">
+        <input type="hidden" name="bn" value="PP-BuyNowBF">
+        <input type="hidden" name="return" value="http://net.tutsplus.com/payment-complete/">
+        <br /><br />
+        <input type="submit" value="Pay with PayPal!">
+    </form> 
+    </div>
+    </div>
+  <iframe src=https://www.researchgate.net/plugins/institution?stats=true&faces=true&publications=true&height=600&width=100%&theme=light&type=institution&installationId=5cb1f36bb93ecda347443a3d />
+    <footer class="footer-distributed">
+        <div class="footer-left ">
+          <h3>ServiceNow<span>Star</span></h3>
+          <p class="footer-links ">
+            <a href="index.html" class="fa fa-home">Home</a>
+            <a href="about.html" class="fa fa-drivers-license-o">About</a>
+            <a href="contactme.html" class="fa fa-envelope">Contact</a>
+          </p>
+          <p class="blocktext">Copyright &copy; 2013-2018, ServiceNowStar</p>
+          <div class="footer-icons ">
+            <div class="linkedin">
+              <a href="mailto:mkemal@servicenowstar.com"><i class="fa fa-envelope fa-3x"></i></a>
+              <a href="https://www.linkedin.com/in/mohammed-k-3b8591136/" target="_blank"><i class="fa fa-linkedin-square fa-3x"> </i></a>
+              <a href="https://dev51346.service-now.com/apm_planner?id=apm_business_planning_home_page" target="_blank"><i class="fa fa-github-square fa-3x"> </i></a>
+              <a href="https://www.facebook.com " target="_blank"><i class="fa fa-facebook-square fa-3x"></i></a>
+              <a href="https://twitter.com" target="_blank"><i class="fa fa-twitter fa-3x"></i></a>
+              <a href="https://www.youtube.com/channel/UCJpw-Yb-MlkSUuVO5gcwHRg" target="_blank"><i class="fa fa-youtube fa-3x"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="blocktext">
+          <p5>Open and  candid developers who are ken for free collaborative work!</p5>
+        </div>
+      </footer> 
+      <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+      <script src="js/bootstrap.min.js"></script>
+      <script async src="js/typed.js "></script>
+      <!-- Go to www.addthis.com/dashboard to customize your tools -->
+      <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5b477b3d387d507f"></script>
+       <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js "></script>
+        <!-- Latest compiled and minified JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+        <script src="https://code.jquery.com/jquery.js "></script>
+        <script async src="js/script.js "></script>
+      </div>
+      </body>
+      </html>
